@@ -48,7 +48,6 @@ ENV PATH=${JAVA_HOME}/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbi
 
 WORKDIR /java
 
-ENTRYPOINT ["java", "-jar"]
 
 # The JDK image includes a few build utilities and Maven
 FROM base as jdk
